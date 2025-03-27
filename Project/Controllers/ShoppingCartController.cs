@@ -153,7 +153,7 @@ namespace ChienVHShopOnline.Controllers
             // Create details object
             var details = new Details()
             {
-                tax = "1",
+                tax = "0",
                 shipping = "2",
                 subtotal = listCarts.Sum(x => x.Quantity * x.Product.Price).ToString()
             };
